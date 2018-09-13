@@ -1,0 +1,36 @@
+<h2>Sale</h2>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <td>{{sale?.id}}</td>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>{{sale?.date}}</td>
+  </tr>
+  <tr>
+    <th>Customer</th>
+    <td>{{sale?.customerName}}</td>
+  </tr>
+  <tr>
+    <th>Employee</th>
+    <td>{{sale?.employeeName}}</td>
+  </tr>
+  <tr>
+    <th>Product</th>
+    <td>{{sale?.productName}}</td>
+  </tr>
+  <tr>
+    <th>Unit Price</th>
+    <td>{{sale?.unitPrice | currency}}</td>
+  </tr>
+  <tr>
+    <th>Quantity</th>
+    <td>{{sale?.quantity}}</td>
+  </tr>
+  <tr>
+    <th>Total Price</th>
+    <td>{{sale?.totalPrice | currency}}</td>
+  </tr>
+</table>
